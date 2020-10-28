@@ -36,14 +36,14 @@ jobs:
       - name: Archieve Production artifacts
         uses: actions/upload-artifact@master
         with:
-          name: dist/my-first-app
+          name: dist
           path: dist/my-first-app
       - name: Checkout Repo
         uses: actions/checkout@master
       - name: Download Artifact
         uses: actions/download-artifact@master
         with:
-          name: dist/my-first-app
+          name: dist
           path: dist/my-first-app
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
