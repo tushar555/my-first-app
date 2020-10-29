@@ -2,13 +2,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { SharedService } from './shared.service';
 import { RouterModule, Routes } from '@angular/router';
 import { EagerModule } from './eager.module';
+import { EagerComponent } from './eager.component';
 
 const routes: Routes = [
   {
-    path:'', component:AppComponent
+    path:'', component:EagerComponent
   },
   {
     path:'child',loadChildren:()=>import('../app/child.module').then(m=>m.ChildModule)

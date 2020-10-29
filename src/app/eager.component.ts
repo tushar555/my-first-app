@@ -3,7 +3,7 @@ import { SharedService } from './shared.service';
 
 @Component({
     selector:'app-eager',
-    template:'',
+    template:'<h6>This is eager Component</h6>',
     styles:[]
 })
 export class EagerComponent{
