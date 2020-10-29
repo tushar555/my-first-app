@@ -6,9 +6,9 @@ cache:
    - node_modules
 deploy:
  provider: s3
- access_key_id: "YOUR_ACCESS_KEY"
- secret_access_key: "YOUR_SECRET_KEY"
- bucket: "YOUR_S3_BUCKET"
+ access_key_id: "AKIAYFMNIQVZLCQV7TF5"
+ secret_access_key: "XHjI/pnhu+n39J8jJeFC/vPMxxTM93rEp3ITETMZ"
+ bucket: "my-demo-app"
  acl: public_read
  skip_cleanup: true
  local_dir: build_webpack
