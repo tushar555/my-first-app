@@ -11,7 +11,7 @@ deploy:
  bucket: "my-demo-app"
  acl: public_read
  skip_cleanup: true
- local_dir: build_webpack
+ local_dir: dist
 branches:
  only:
    - master
